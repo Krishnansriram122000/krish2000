@@ -1,4 +1,7 @@
 <html>
+	<head>
+		<meta http-equiv="refresh" content="5,https://Krishnansriram122000.github.io/krish2000/appp.html">
+	</head>
 <body>
 <?php
 	$conn=mysqli_connect("localhost","root","","logindb");
