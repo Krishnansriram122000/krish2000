@@ -2,7 +2,8 @@
 	<head>
 		<meta http-equiv="refresh" content="5,https://Krishnansriram122000.github.io/krish2000/appp.html">
 	</head>
-<body>
+<body bgcolor="#b81f34">
+	<b><marquee>
 <?php
 	$conn=mysqli_connect("localhost","root","","logindb");
 	$usn=$_POST["usn"];
@@ -32,5 +33,6 @@
 	$i=mysqli_fetch_assoc($result);
 	echo "your emailid is ".$i['MAIL'];
 ?>
+		</b></marquee>
 </body>
 </html>
