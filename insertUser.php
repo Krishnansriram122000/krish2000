@@ -4,7 +4,7 @@
 <body>
 <?php
 	$conn=mysqli_connect("localhost","root","","logindb");
-	if($conn) echo 1;
+	echo "<p align="center"><br><br>";
 	$usn=$_POST["usn"];
 	$pass=$_POST["pass1"];
 	$mail=$_POST["mail1"];
