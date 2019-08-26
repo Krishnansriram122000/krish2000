@@ -1,0 +1,21 @@
+<html>
+<body>
+<form id="form" action="insertUser.php" method="POST">
+<b>
+ENTER YOUR NAME:<INPUT TYPE="TEXT" NAME="usn">
+ENTER YOUR PASSWORD:<INPUT TYPE="PASSWORD" NAME="pass1">
+CONFORM YOUR PASSWORD:<INPUT TYPE="PASSWORD" NAME="pass2">
+ENTER YOUR MAILID:<INPUT TYPE="TEXT" NAME="mail1">
+<INPUT TYPE="submit" onclick=eval()>
+</form>
+<script>
+function eval(){
+if(document.forms["form"]["pass1"].value!=document.forms["form"]["pass2"].value)
+{
+	alert("CONFORM PASSWORD PROPERLY");
+	window.location.href="createUser.html";
+	}
+}
+</script>
+</body>
+</html>

@@ -1,11 +1,16 @@
 <html>
-  <meta http-equiv="refresh" content="5,https://krishnansriram122000.github.io/krish2000/appp.html">
-<body bgcolor="red">
-<h1>
-<marquee>
-Krishna....
- </marquee>
- <form action="https://krishnansriram122000.github.io/krish2000/appp.html" method="get">
-   name:<input type="text" name="hello">
-   <input type="submit">
-<?php echo $_GET["hello"];?>
+<body>
+<p align="center"><b><i><U>
+WELCOME</b></i></u><br><br>
+<form action="selectQuery.php" method="POST">
+USERNAME:<input type="text" name="usn"><br><br>
+PASSWORD:<input type="text" name="pas">
+<input type="submit"><br><br></form>
+<button onclick=myfun()>NEW USER</button><br><br>
+<script>
+	function myfun(){
+		window.location.href="createUser.html";
+		}
+</script>
+</body>
+</html>
